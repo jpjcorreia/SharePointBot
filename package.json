@@ -1,7 +1,7 @@
 {
   "name": "sp-qna-bot",
   "version": "1.1.0",
-  "description": "Sample QnA maker Bot for SharePoint Online using OAuth2",
+  "description": "LC Bot for SharePoint Online",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
