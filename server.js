@@ -377,6 +377,9 @@ var doSearch = (query, accessToken) => {
 
     var p = new Promise((resolve, reject) => {
 
+        console.log("Access token: " + accessToken);
+        console.log("Query: " + query);
+
         var endpointUrl = adalConfig.resource + "/_api/search/query?querytext='" + query + "'"; 
 
         // Node fetch is the server version of whatwg-fetch
